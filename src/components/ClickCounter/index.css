@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f5f8;
+  background-size: cover;
+  height: 100vh;
+}
+.heading {
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 45px;
+  }
+}
+.counter {
+  color: #c20a72;
+}
+@media screen and (max-width: 768px) {
+  .counter {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .counter {
+    font-size: 45px;
+  }
+}
+.description {
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+  .description {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 25px;
+  }
+}
+.button {
+  cursor: pointer;
+  outline: none;
+  height: 40px;
+  width: 80px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .button {
+    height: 40px;
+    width: 70px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button {
+    height: 60px;
+    width: 90px;
+  }
+}
